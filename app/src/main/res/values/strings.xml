@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ExampleProject</string>
+    <string name="radius_mode">Radius mode</string>
+    <string name="area_mode">Area mode</string>
+    <string name="all_claims">Всі заяви</string>
+    <string name="experts">Експерти</string>
+    <string name="my_claims">Мої заяви</string>
+    <string name="selected">Обране</string>
+    <string name="map_mode">Map Mode</string>
+    <string name="toolbar_header">Скажений садівник</string>
+    <string name="show_for_area">Показати для цієї місцевості</string>
+    <string name="list">Список</string>
+    <string name="map">Карта</string>
+
+</resources>

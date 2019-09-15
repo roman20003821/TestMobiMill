@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/allClaims"
+        android:icon="@android:drawable/sym_action_email"
+        android:title="@string/all_claims"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/experts"
+        android:icon="@android:drawable/sym_action_email"
+        android:title="@string/experts"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:title=""
+        android:id="@+id/document"
+        android:actionLayout="@layout/write_message_item"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/myClaims"
+        android:icon="@android:drawable/sym_action_email"
+        android:title="@string/my_claims"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/selected"
+        android:enabled="true"
+        android:icon="@android:drawable/sym_action_email"
+        android:title="@string/selected"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+</menu>
